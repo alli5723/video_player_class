@@ -1,0 +1,21 @@
+{
+  "name": "video_player",
+  "version": "1.0.0",
+  "description": "An microservice to serve video contents for a web application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "node $npm_package_main"
+  },
+  "author": "Alli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
